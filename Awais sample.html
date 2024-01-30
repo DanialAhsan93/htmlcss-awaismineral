@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Mine landing Page</title>
+</head>
+<body>
+     <section class="showcase">
+     	<header>
+     		<h2 class="loggo">Awais Minerals& CO.</h2>
+     		<div class="toggle "></div>	
+     	</header>
+
+     	<video src="videos/mine 1.mp4" muted loop autoplay></video>
+
+     	<div class="overlay"></div>
+
+     	<div class="text">
+     		<h2>Best In The business</h2>
+     		<h3>Exploring the Resources</h3>
+     		<p>Muller Industries was established in 2020. We are leading Mine owner and manufacturer in Pakistan. We deals in Bauxite, Raw Magnesite (DBM) (CCM), Fluorspar, Sodium & Potash Feldspar, Fire clay, Calcium Carbonate, Iron Ore, Dolomite, Red oxide, Talc (Soap Stone).
+     		 </p>
+     		 <a href="#">Read More</a>
+     	</div>
+
+     	<ul class="social">
+     		<li><a href="#"><img src="images/Mail.png" alt="" height="20" width="20"></a></li>
+     		<li><a href="#"><img src="images/Twitter.png" alt="" height="20" width="20"></a></li>
+     		<li><a href="#"><img src="images/Whatsapp.png" alt="" height="20" width="20"></a></li>
+
+     	</ul>
+
+     </section>
+
+     <div class="menu">
+
+     	<ul>
+     		<li><a href="#">Home</a></li>
+     		<li><a href="#">News</a></li>
+     		<li><a href="#">Our product</a></li>
+     		<li><a href="#">About Us</a></li>
+     		<li><a href="#">Blog</a></li>
+     		<li><a href="#">Contact Us</a></li>
+     	</ul>
+
+     </div>
+
+<script>
+	const menuToggle=document.querySelector('.toggle');
+	const showcase=document.querySelector('.showcase');
+
+	menuToggle.addEventListener('click', () => {
+		menuToggle.classList.toggle('active');
+		showcase.classList.toggle('active');
+	})
+</script>
+
+
+
+
+
+</body>
+</html>
